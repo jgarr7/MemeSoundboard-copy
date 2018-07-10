@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A803692F20F43FCE00ECF73B /* oof.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A803692E20F43FCE00ECF73B /* oof.mp3 */; };
+		A803693120F43FD500ECF73B /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A803693020F43FD500ECF73B /* E.mp3 */; };
+		A803693320F43FE000ECF73B /* scooptitypoop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A803693220F43FE000ECF73B /* scooptitypoop.mp3 */; };
+		A803693520F4400A00ECF73B /* Nice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A803693420F4400A00ECF73B /* Nice.mp3 */; };
+		A803693720F4707400ECF73B /* freerealestate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A803693620F4707400ECF73B /* freerealestate.mp3 */; };
+		A803693920F473EC00ECF73B /* spaghett.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A803693820F473EC00ECF73B /* spaghett.mp3 */; };
+		A803693B20F4748800ECF73B /* tendies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A803693A20F4748800ECF73B /* tendies.mp3 */; };
+		A803693D20F4765900ECF73B /* Ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A803693C20F4765900ECF73B /* Ok.mp3 */; };
 		A8EC191220F2A6F800D638EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC191120F2A6F800D638EE /* AppDelegate.swift */; };
 		A8EC191420F2A6F800D638EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC191320F2A6F800D638EE /* ViewController.swift */; };
 		A8EC191720F2A6F800D638EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EC191520F2A6F800D638EE /* Main.storyboard */; };
@@ -43,6 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A803692620F4397D00ECF73B /* dametucosita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dametucosita.mp3; sourceTree = "<group>"; };
+		A803692720F4397D00ECF73B /* breakfast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = breakfast.mp3; path = ../../../breakfast.mp3; sourceTree = "<group>"; };
+		A803692820F4397D00ECF73B /* Pranked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pranked.mp3; sourceTree = "<group>"; };
+		A803692920F4397D00ECF73B /* Running.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Running.mp3; sourceTree = "<group>"; };
+		A803692A20F4397E00ECF73B /* Nestle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Nestle.mp3; sourceTree = "<group>"; };
+		A803692B20F4397E00ECF73B /* Titanic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Titanic.mp3; sourceTree = "<group>"; };
+		A803692C20F4397E00ECF73B /* Nani!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nani!.mp3"; sourceTree = "<group>"; };
+		A803692D20F4397E00ECF73B /* Wednesday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wednesday.mp3; sourceTree = "<group>"; };
+		A803692E20F43FCE00ECF73B /* oof.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oof.mp3; path = ../../../../oof.mp3; sourceTree = "<group>"; };
+		A803693020F43FD500ECF73B /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E.mp3; path = ../../../../E.mp3; sourceTree = "<group>"; };
+		A803693220F43FE000ECF73B /* scooptitypoop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = scooptitypoop.mp3; path = ../../../../scooptitypoop.mp3; sourceTree = "<group>"; };
+		A803693420F4400A00ECF73B /* Nice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Nice.mp3; path = ../../../../Nice.mp3; sourceTree = "<group>"; };
+		A803693620F4707400ECF73B /* freerealestate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = freerealestate.mp3; path = ../../../../freerealestate.mp3; sourceTree = "<group>"; };
+		A803693820F473EC00ECF73B /* spaghett.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spaghett.mp3; path = ../../../../spaghett.mp3; sourceTree = "<group>"; };
+		A803693A20F4748800ECF73B /* tendies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tendies.mp3; path = ../../../../tendies.mp3; sourceTree = "<group>"; };
+		A803693C20F4765900ECF73B /* Ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ok.mp3; path = ../../../../Ok.mp3; sourceTree = "<group>"; };
 		A8EC190E20F2A6F800D638EE /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EC191120F2A6F800D638EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8EC191320F2A6F800D638EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +137,14 @@
 		A8EC191020F2A6F800D638EE /* MemeSoundboard */ = {
 			isa = PBXGroup;
 			children = (
+				A803692720F4397D00ECF73B /* breakfast.mp3 */,
+				A803692920F4397D00ECF73B /* Running.mp3 */,
+				A803692D20F4397E00ECF73B /* Wednesday.mp3 */,
+				A803692620F4397D00ECF73B /* dametucosita.mp3 */,
+				A803692A20F4397E00ECF73B /* Nestle.mp3 */,
+				A803692820F4397D00ECF73B /* Pranked.mp3 */,
+				A803692B20F4397E00ECF73B /* Titanic.mp3 */,
+				A803692C20F4397E00ECF73B /* Nani!.mp3 */,
 				A8EC191120F2A6F800D638EE /* AppDelegate.swift */,
 				A8EC191320F2A6F800D638EE /* ViewController.swift */,
 				A8EC191520F2A6F800D638EE /* Main.storyboard */,
@@ -144,6 +176,14 @@
 		A8EC193F20F2EEDF00D638EE /* MemeAudio */ = {
 			isa = PBXGroup;
 			children = (
+				A803693C20F4765900ECF73B /* Ok.mp3 */,
+				A803693A20F4748800ECF73B /* tendies.mp3 */,
+				A803693820F473EC00ECF73B /* spaghett.mp3 */,
+				A803693620F4707400ECF73B /* freerealestate.mp3 */,
+				A803693420F4400A00ECF73B /* Nice.mp3 */,
+				A803693220F43FE000ECF73B /* scooptitypoop.mp3 */,
+				A803693020F43FD500ECF73B /* E.mp3 */,
+				A803692E20F43FCE00ECF73B /* oof.mp3 */,
 				A8EC195120F3277200D638EE /* breakfast.mp3 */,
 				A8EC194F20F3220F00D638EE /* Running.mp3 */,
 				A8EC194D20F3212C00D638EE /* Wednesday.mp3 */,
@@ -263,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A803693120F43FD500ECF73B /* E.mp3 in Resources */,
 				A8EC191C20F2A6F800D638EE /* LaunchScreen.storyboard in Resources */,
 				A8EC194920F2F73400D638EE /* Nestle.mp3 in Resources */,
 				A8EC194520F2F4FA00D638EE /* Titanic.mp3 in Resources */,
@@ -271,6 +312,13 @@
 				A8EC194320F2F3FB00D638EE /* Nani!.mp3 in Resources */,
 				A8EC191720F2A6F800D638EE /* Main.storyboard in Resources */,
 				A8EC194E20F3212D00D638EE /* Wednesday.mp3 in Resources */,
+				A803692F20F43FCE00ECF73B /* oof.mp3 in Resources */,
+				A803693920F473EC00ECF73B /* spaghett.mp3 in Resources */,
+				A803693320F43FE000ECF73B /* scooptitypoop.mp3 in Resources */,
+				A803693D20F4765900ECF73B /* Ok.mp3 in Resources */,
+				A803693520F4400A00ECF73B /* Nice.mp3 in Resources */,
+				A803693B20F4748800ECF73B /* tendies.mp3 in Resources */,
+				A803693720F4707400ECF73B /* freerealestate.mp3 in Resources */,
 				A8EC195220F3277200D638EE /* breakfast.mp3 in Resources */,
 				A8EC195020F3220F00D638EE /* Running.mp3 in Resources */,
 			);
