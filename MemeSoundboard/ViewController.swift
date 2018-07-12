@@ -12,7 +12,8 @@ import AVFoundation
 
 
 class ViewController: UIViewController {
-
+    
+    var memesounds = ["Nani!", "Wednesday", "Titanic", "dametucosita", "Pranked", "breakfast", "Nestle",  "Running"]
     var audioPlayer: AVAudioPlayer?
     
     func playSoundWithFileName(file: String, fileExt: String)-> Void {
@@ -44,11 +45,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func naniTouched(_ sender: Any) {
-        playSoundWithFileName(file: "Nani!", fileExt: "mp3")
+    @IBAction func playSound(_ sender: UIButton) {
+        let index = sender.tag
+        let soundString = memesounds[index]
+        playSoundWithFileName(file: soundString, fileExt: "mp3")
     }
     
-
 
 }
 
