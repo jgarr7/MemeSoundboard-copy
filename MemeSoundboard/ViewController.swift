@@ -13,6 +13,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    
     var memesounds = ["Nani!", "Wednesday", "Titanic", "dametucosita", "Pranked", "breakfast", "Nestle",  "Running"]
     var audioPlayer: AVAudioPlayer?
     
@@ -43,6 +44,9 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        audioPlayer?.stop()
     }
     
     @IBAction func playSound(_ sender: UIButton) {

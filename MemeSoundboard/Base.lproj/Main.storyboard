@@ -26,10 +26,13 @@
                             <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="memesound" translatesAutoresizingMaskIntoConstraints="NO" id="xXC-kZ-EAg">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBl-O4-4JA">
-                                <rect key="frame" x="144" y="338" width="86" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBl-O4-4JA">
+                                <rect key="frame" x="133" y="358" width="109" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="F8a-fd-rjv"/>
+                                    <constraint firstAttribute="width" constant="109" id="Iu3-x3-fbb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
                                 <state key="normal" title="GO!">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -37,16 +40,22 @@
                                     <segue destination="nKR-hU-Nwy" kind="show" id="jw8-HC-JlA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Begin Your Dank Adventure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSL-eD-Gde">
-                                <rect key="frame" x="18" y="204" width="338" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Begin Your Dank Adventure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSL-eD-Gde">
+                                <rect key="frame" x="18" y="224" width="338" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="WN9-QC-F0A"/>
+                                    <constraint firstAttribute="width" constant="338" id="xfW-ZA-cgy"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meme Soundboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccR-ct-OXO">
-                                <rect key="frame" x="35" y="117" width="305" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meme Soundboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccR-ct-OXO">
+                                <rect key="frame" x="35" y="94" width="305" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="305" id="0dY-Pf-NIe"/>
+                                    <constraint firstAttribute="height" constant="79" id="O6z-gx-VpZ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -54,9 +63,19 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="xXC-kZ-EAg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7Yc-Tt-t6r"/>
+                            <constraint firstItem="CSL-eD-Gde" firstAttribute="top" secondItem="ccR-ct-OXO" secondAttribute="bottom" constant="51" id="B65-g2-9CU"/>
                             <constraint firstItem="xXC-kZ-EAg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Dld-33-wXg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qBl-O4-4JA" secondAttribute="trailing" constant="133" id="Hcy-FG-kfT"/>
                             <constraint firstItem="xXC-kZ-EAg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I5a-tk-TN5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CSL-eD-Gde" secondAttribute="trailing" constant="19" id="IJa-En-VvT"/>
+                            <constraint firstItem="qBl-O4-4JA" firstAttribute="top" secondItem="CSL-eD-Gde" secondAttribute="bottom" constant="44" id="N4a-FQ-b0W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ccR-ct-OXO" secondAttribute="trailing" constant="35" id="POw-cN-SaL"/>
                             <constraint firstItem="xXC-kZ-EAg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Y7d-xE-EwU"/>
+                            <constraint firstItem="qBl-O4-4JA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="bR2-dK-WBU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qBl-O4-4JA" secondAttribute="bottom" constant="236" id="k3w-LT-bof"/>
+                            <constraint firstItem="ccR-ct-OXO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="lD6-TN-c66"/>
+                            <constraint firstItem="CSL-eD-Gde" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="neK-ap-PEu"/>
+                            <constraint firstItem="ccR-ct-OXO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="wTD-yc-SD2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -366,7 +385,6 @@
                                 </constraints>
                                 <state key="normal" backgroundImage="knob"/>
                                 <connections>
-                                    <action selector="naniTouched:" destination="ohY-sP-XCj" eventType="touchUpInside" id="3ZM-FA-AIl"/>
                                     <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="cUH-23-2kV"/>
                                 </connections>
                             </button>
