@@ -292,53 +292,71 @@
                             <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kazookid" translatesAutoresizingMaskIntoConstraints="NO" id="HeN-q8-Eip">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlQ-g1-PeW">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlQ-g1-PeW">
                                 <rect key="frame" x="75" y="276.5" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Jt0-d1-Grs"/>
                                     <constraint firstAttribute="width" constant="50" id="yuf-O9-dXh"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="knob"/>
+                                <connections>
+                                    <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="t6u-hv-baJ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxY-Ij-f7D">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxY-Ij-f7D">
                                 <rect key="frame" x="250" y="277" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="1xf-Fd-fJY"/>
                                     <constraint firstAttribute="width" constant="50" id="HF6-oJ-gFH"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="knob"/>
+                                <connections>
+                                    <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="Do1-MD-3bH"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDb-ma-vCH">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDb-ma-vCH">
                                 <rect key="frame" x="75" y="408" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="EIN-Ol-ja3"/>
                                     <constraint firstAttribute="height" constant="50" id="gre-Gq-MYf"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="knob"/>
+                                <connections>
+                                    <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="17P-Bw-0Gb"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdd-Na-DvW">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdd-Na-DvW">
                                 <rect key="frame" x="250" y="408" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="i4k-16-KTt"/>
                                     <constraint firstAttribute="height" constant="50" id="iRG-mR-sFl"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="knob"/>
+                                <connections>
+                                    <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="ecG-tK-io0"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roE-3k-NcE">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roE-3k-NcE">
                                 <rect key="frame" x="75" y="539" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Thu-rh-3Ah"/>
                                     <constraint firstAttribute="width" constant="50" id="dOr-1h-pMK"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="knob"/>
+                                <connections>
+                                    <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="0jE-jj-3tp"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9UH-FF-Jlr">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9UH-FF-Jlr">
                                 <rect key="frame" x="250" y="539" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="SGI-H6-J8p"/>
                                     <constraint firstAttribute="height" constant="50" id="aBT-ra-k0S"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="knob"/>
+                                <connections>
+                                    <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="zqj-5i-Z3t"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gnj-sw-XdB">
                                 <rect key="frame" x="75" y="145.5" width="50" height="50"/>
@@ -349,15 +367,19 @@
                                 <state key="normal" backgroundImage="knob"/>
                                 <connections>
                                     <action selector="naniTouched:" destination="ohY-sP-XCj" eventType="touchUpInside" id="3ZM-FA-AIl"/>
+                                    <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="cUH-23-2kV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux1-hN-xNZ">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux1-hN-xNZ">
                                 <rect key="frame" x="250" y="145.5" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="TrP-iI-PV2"/>
                                     <constraint firstAttribute="height" constant="50" id="uGy-yH-ZN7"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="knob"/>
+                                <connections>
+                                    <action selector="playSound2:" destination="ohY-sP-XCj" eventType="touchUpInside" id="VTw-JH-QK6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S47-mh-l0U">
                                 <rect key="frame" x="16" y="80" width="171.5" height="57.5"/>
